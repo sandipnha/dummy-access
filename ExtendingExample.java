@@ -10,6 +10,8 @@ class ExtendingExample
          while(cnt.isAlive())
          {
            System.out.println("Main thread will be alive till the child thread is live");
+            
+            
            Thread.sleep(1500);
          }
       }
